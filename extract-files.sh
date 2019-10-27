@@ -15,5 +15,6 @@ fi
 set -e
 
 export DEVICE_COMMON=msm8937-common
+export DEVICE_SPECIFIED_COMMON_DEVICE="riva rolex"
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
