@@ -9,6 +9,9 @@ include device/xiaomi/msm8937-common/BoardConfigCommon.mk
 
 DEVICE_COMMON_PATH := device/xiaomi/rova-common
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_COMMON_PATH)/vendor.prop
 
