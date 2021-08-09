@@ -1,2 +1,6 @@
+# Camera
+genfscon sysfs /camera_fusion_id_back  u:object_r:sysfs_camera_fusion_id:s0
+genfscon sysfs /camera_fusion_id_front u:object_r:sysfs_camera_fusion_id:s0
+
 # LEDs
 genfscon sysfs /devices/platform/soc/78b6000.i2c/i2c-2/2-0045/leds u:object_r:sysfs_leds:s0
