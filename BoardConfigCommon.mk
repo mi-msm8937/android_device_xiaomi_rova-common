@@ -12,5 +12,8 @@ DEVICE_COMMON_PATH := device/xiaomi/rova-common
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_COMMON_PATH)/vendor.prop
 
+# SELinux
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_COMMON_PATH)/sepolicy/vendor
+
 # Inherit from the proprietary version
 include vendor/xiaomi/rova-common/BoardConfigVendor.mk
