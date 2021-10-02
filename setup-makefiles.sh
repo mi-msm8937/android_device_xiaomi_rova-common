@@ -9,6 +9,7 @@
 set -e
 
 export DEVICE_COMMON=msm8937-common
+export DEVICE_SPECIFIED_COMMON=rova-common
 export DEVICE_SPECIFIED_COMMON_DEVICE="riva rolex"
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
