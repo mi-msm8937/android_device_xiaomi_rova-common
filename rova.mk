@@ -19,6 +19,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ft5346.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/ft5346.kl \
     $(LOCAL_PATH)/keylayout/goodix-ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/goodix-ts.kl
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    init.baseband.sh \
+    init.xiaomi.series.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)

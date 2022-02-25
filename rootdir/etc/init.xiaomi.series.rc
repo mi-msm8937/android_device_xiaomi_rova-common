@@ -1,0 +1,3 @@
+# Baseband
+on boot
+    enable baseband-sh
