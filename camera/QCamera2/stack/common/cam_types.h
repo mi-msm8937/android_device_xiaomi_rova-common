@@ -1397,6 +1397,7 @@ typedef struct {
 typedef struct {
     uint8_t num_of_streams;
     cam_stream_crop_info_t crop_info[MAX_NUM_STREAMS];
+    uint8_t xm_02;
 } cam_crop_data_t;
 
 typedef struct {
@@ -1529,6 +1530,7 @@ typedef struct {
     int32_t est_snap_iso_value;
     uint32_t est_snap_luma;
     uint32_t est_snap_target;
+    uint32_t xm_03;
 } cam_3a_params_t;
 
 typedef struct {
@@ -1911,6 +1913,7 @@ typedef enum {
     CAM_INTF_PARM_ROTATION,
     CAM_INTF_PARM_SCALE,
     CAM_INTF_PARM_VT, /* indicating if it's a Video Call Apllication */
+    XM_01,
     CAM_INTF_META_CROP_DATA,
     CAM_INTF_META_PREP_SNAPSHOT_DONE, /* 60 */
     CAM_INTF_META_GOOD_FRAME_IDX_RANGE,
