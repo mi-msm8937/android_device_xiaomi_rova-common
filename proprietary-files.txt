@@ -1,6 +1,7 @@
 # riva Nougat Package version: riva-user 7.1.2 N2G47H V10.1.1.0.NCKMIFI release-keys
 # riva Oreo Package version: riva-user 8.1.0 OPM1.171019.026 V11.0.2.0.OCKMIXM release-keys
 # rolex Package version:	rolex-user	7.1.2 N2G47H V10.2.3.0.NCCMIXM release-keys
+# santoni Package version:	santoni-user	7.1.2 N2G47H V11.0.2.0.NAMMIXM release-keys
 
 # ACDB - from riva Oreo
 vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Bluetooth_cal.acdb
@@ -33,9 +34,8 @@ vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
 
-# Camera stack - from riva V9.2.4.0.NCKMIEK
+# Camera stack - from santoni
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
-vendor/lib/libchromaflash.so
 vendor/lib/libflash_gpio.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
@@ -127,11 +127,8 @@ vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/libois_lc898122.so
-vendor/lib/liboptizoom.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libseemore.so
-vendor/lib/libtrueportrait.so
-vendor/lib/libubifocus.so
