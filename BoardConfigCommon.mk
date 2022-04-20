@@ -9,5 +9,8 @@ include device/xiaomi/msm8937-common/BoardConfigCommon.mk
 
 DEVICE_COMMON_PATH := device/xiaomi/rova-common
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_COMMON_PATH)/vendor.prop
+
 # Inherit from the proprietary version
 include vendor/xiaomi/rova-common/BoardConfigVendor.mk
